@@ -1,4 +1,10 @@
-hello-world:
-  image: tutum/hello-world
-  ports:
-    - 81:81
+---
+version: '3'
+services:
+  hello-world:
+    build: .
+    image: camptocamp/hello-world
+    ports:
+      - 80:80
+    environment:
+      NAME: EPFL

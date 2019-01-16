@@ -7,7 +7,8 @@
 		background-color: white;
 		text-align: center;
 		padding: 50px;
-		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: "Gotham Book","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #707172;
 	}
 
 	#logo {
