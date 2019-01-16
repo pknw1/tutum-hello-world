@@ -32,7 +32,7 @@
 			];
 		}
 	}
-	if($links) {
+	if($links && $_GET["show_links"]) {
 	?>
 		<h3>Links found</h3>
 		<?php
